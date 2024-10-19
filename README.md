@@ -19,7 +19,6 @@ The goal of this project is to build a full-stack web application that allows us
 ### 3. Bidding Functionality
 - **Place Bid**: As a user, I want to place bids on auction items so that I can participate in auctions.
 - **View Current Highest Bid**: As a user, I want to view the current highest bid and bid history for an auction item so that I can make informed bidding decisions.
-- **Receive Notifications for Outbid**: As a user, I want to receive notifications when I am outbid so that I can decide if I want to place a higher bid.
 
 ## Tech Stack Used
 
@@ -40,4 +39,57 @@ The goal of this project is to build a full-stack web application that allows us
 ---
 
 ## Project Structure
+project-root/
+├── frontend/            # Frontend code (React)
+│   ├── public/
+│   ├── src/
+│   ├── package.json     # Frontend dependencies
+│   └── ...
+├── backend/             # Backend code (Node.js)
+│   ├── src/
+│   ├── server.js        # Express server setup
+│   ├── package.json     # Backend dependencies
+│   └── ...
+└── README.md
 
+## Installation & Setup
+
+Prerequisites
+Before running the project, ensure you have the following installed:
+
+- **Node.js**: (version 12 or higher)
+- **MongoDB**: (for local development) or access to a remote MongoDB database
+- **NPM**:  (Node package manager)
+
+
+## Running the Backend (Node.js)
+
+### 1. Navigate to the backend directory:
+- cd Backend_Node
+
+### 2. Install dependencies::
+- npm install
+
+### 3. Configure the environment variables. Create a .env file in the backend/ directory with the following content (replace the placeholders):
+- PORT=5000
+- MONGO_URI=mongodb://localhost:27017/bidding-db
+- JWT_SECRET=your_secret_key
+
+### 4. Start the backend server:
+- npm run dev
+
+The server will run on http://localhost:5000.
+
+
+## Running the FrontEnd (react.js)
+
+### 1. Navigate to the backend directory:
+- cd Frontend_React
+
+### 2. Install dependencies::
+- npm install
+
+### 3. Start the front server:
+- npm start
+
+The server will run on http://localhost:3000.
