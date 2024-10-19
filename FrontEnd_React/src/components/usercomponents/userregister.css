@@ -1,0 +1,18 @@
+.get-started {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .social-buttons .btn {
+    margin-bottom: 10px;
+  }
+  
+  img.img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
+
+  .submit{
+    width: 100%;
+  }

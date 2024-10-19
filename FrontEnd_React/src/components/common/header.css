@@ -1,0 +1,12 @@
+.header .logo img {
+    max-height: 50px;
+  }
+  
+  .auth-buttons .btn {
+    margin-left: 10px;
+  }
+  
+
+  .header {    
+    background-color: #FFE5F1 !important;
+  }

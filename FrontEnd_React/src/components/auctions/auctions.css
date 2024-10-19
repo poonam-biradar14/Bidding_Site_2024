@@ -1,0 +1,42 @@
+.auction-list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+  }
+  
+  .auction-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .auction-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .auction-info {
+    margin-top: 10px;
+  }
+  
+  .bid-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .bid-button:hover {
+    background-color: #0056b3;
+  }
+  
+
+  .bid-now{
+    background-color: #007bff;
+  }
+
+  .bid-history-item{
+    padding: 4%;
+  }
