@@ -125,7 +125,6 @@ const UserRegister = () => {
                 onChange={handleChange}
                 required
               />
-              <small className="form-text text-danger">Password criteria check</small>
             </div>
 
             <div className="form-group form-check">
